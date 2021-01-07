@@ -34,19 +34,19 @@
       <div class="board">
         <table>
           <tr>
-            <td onclick="press('02')"></td>
-            <td onclick="press('01')" class="v"></td>
-            <td onclick="press('00')"></td>
+            <td id="02" onclick="press('02')"></td>
+            <td id="01" onclick="press('01')" class="v"></td>
+            <td id="00" onclick="press('00')"></td>
           </tr>
           <tr>
-            <td onclick="press('12')" class="h"></td>
-            <td onclick="press('11')" class="v h"></td>
-            <td onclick="press('10')" class="h"></td>
+            <td id="12" onclick="press('12')" class="h"></td>
+            <td id="11" onclick="press('11')" class="v h"></td>
+            <td id="10" onclick="press('10')" class="h"></td>
           </tr>
           <tr>
-            <td onclick="press('22')"></td>
-            <td onclick="press('21')" class="v"></td>
-            <td onclick="press('20')"></td>
+            <td id="22" onclick="press('22')"></td>
+            <td id="21" onclick="press('21')" class="v"></td>
+            <td id="20" onclick="press('20')"></td>
           </tr>
         </table>
       </div>
@@ -54,6 +54,8 @@
         <h1>X</h1>
         <h1>O</h1>
       </div>
+      <h1>winner is:</h1>
+      <h1 id="status" ></h1>
     </div>
     <div class="rotate">
       <h1>O</h1>
